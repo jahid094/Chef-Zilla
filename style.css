@@ -133,6 +133,7 @@ h2{
     }
     .forgotImage{
         width: 40%;
+        margin-top: -50px;
     }
     .registerPhoto{
         width: 55%;
