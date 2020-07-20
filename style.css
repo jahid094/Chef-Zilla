@@ -31,16 +31,6 @@ h2{
 .fp{
     color: #b30000;
 }
-
-.viewAll{
-    color:white; 
-    background-color: #b30000;
-    padding: 5px 25px 5px 25px;
-    margin: 0 auto;
-    border: none;
-    
-        
-}
 .ABChocolate{
     width: 100%; 
     height: 92%; 
@@ -58,6 +48,7 @@ h2{
     background-color: #b30000;
     color: white;
 }
+
 .boxButton{
     border: 1px solid white;
     background-color: #b30000;
@@ -81,20 +72,11 @@ h2{
 .FImage{
     width: 100%; 
     height: 100%;
+    margin-left: 15px;
 }
-
-.topImage{
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
 
 .registerPhoto{
     width: 75%;
-}
-
-.formdiv{
-    width: 10%;
 }
 
 .formInput{
@@ -105,15 +87,6 @@ h2{
 
 .form-control::-webkit-input-placeholder { 
   color: #b30000;
-}
-
-
-@media only screen and (max-width : 767px) {
-    .middleImage{
-
-        display: flex;
-      justify-content: center;
-    }
 }
 
 @media only screen and (max-width : 1220px) {
