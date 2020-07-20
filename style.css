@@ -80,11 +80,11 @@ h2{
 
 .FImage{
     width: 100%; 
-    height: 100%
+    height: 100%;
 }
 
 .manWithFood{
-    width: 80%;
+    width: 85%;
 }
 
 .topImage{
@@ -95,6 +95,10 @@ h2{
     width: 55%;
 }
 
+.registerPhoto{
+    width: 75%;
+}
+
 .formdiv{
     width: 10%;
 }
@@ -103,18 +107,13 @@ h2{
     width: 70%;
     border: none;
     border-radius: 0px;
-    border-bottom: 1.5px solid grey;
+    border-bottom: 1.2px solid #b3b3b3;
 }
 
 .form-control::-webkit-input-placeholder { 
   color: #b30000;
 }
 
-@media only screen and (max-width : 991px) {
-    .foodImage{
-        margin-top: 120px;
-}
-}
 
 @media only screen and (max-width : 767px) {
     .middleImage{
@@ -124,6 +123,7 @@ h2{
     }
     .manWithFood{
         width: 50%;
+        margin-top: -100px;
     }
     .up{
         display: none;
@@ -133,6 +133,9 @@ h2{
     }
     .forgotImage{
         width: 40%;
+    }
+    .registerPhoto{
+        width: 55%;
     }
 }
 
@@ -157,14 +160,15 @@ h2{
     h1{
         font-size: 30px;
     }
-}
-
-@media only screen and (max-width : 991px) {
     .ABChocolate{
         width: 100%; 
         height: 88%; 
         border-radius: 20px
+    }
+    .foodImage{
+        margin-top: 120px;
+    }
 }
-}
+
 
 
