@@ -83,6 +83,10 @@ h2{
     height: 100%
 }
 
+.manWithFood{
+    width: 80%;
+}
+
 .topImage{
     padding-right: 0px;
     padding-left: 0px;
@@ -112,9 +116,18 @@ h2{
 @media only screen and (max-width : 767px) {
     .middleImage{
 
-            display: flex;
-  justify-content: center;
-}
+        display: flex;
+      justify-content: center;
+    }
+    .manWithFood{
+        width: 50%;
+    }
+    .up{
+        display: none;
+    }
+    .down{
+        display: none;
+    }
 }
 
 @media only screen and (max-width : 1220px) {
