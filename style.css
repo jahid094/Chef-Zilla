@@ -83,17 +83,11 @@ h2{
     height: 100%;
 }
 
-.manWithFood{
-    width: 85%;
-}
-
 .topImage{
     padding-right: 0px;
     padding-left: 0px;
 }
-.forgotImage{
-    width: 55%;
-}
+
 
 .registerPhoto{
     width: 75%;
@@ -103,8 +97,7 @@ h2{
     width: 10%;
 }
 
-.form-control{
-    width: 70%;
+.formInput{
     border: none;
     border-radius: 0px;
     border-bottom: 1.2px solid #b3b3b3;
@@ -120,23 +113,6 @@ h2{
 
         display: flex;
       justify-content: center;
-    }
-    .manWithFood{
-        width: 50%;
-        margin-top: -100px;
-    }
-    .up{
-        display: none;
-    }
-    .down{
-        display: none;
-    }
-    .forgotImage{
-        width: 40%;
-        margin-top: -50px;
-    }
-    .registerPhoto{
-        width: 55%;
     }
 }
 
