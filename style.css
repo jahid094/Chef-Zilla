@@ -91,6 +91,9 @@ h2{
     padding-right: 0px;
     padding-left: 0px;
 }
+.forgotImage{
+    width: 55%;
+}
 
 .formdiv{
     width: 10%;
@@ -127,6 +130,9 @@ h2{
     }
     .down{
         display: none;
+    }
+    .forgotImage{
+        width: 40%;
     }
 }
 
