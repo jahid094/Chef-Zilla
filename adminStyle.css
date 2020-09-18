@@ -1,3 +1,30 @@
+.table .thead-dark th {
+    color: #fff;
+    background-color: #b00b10;
+}
+table.table thead th {
+    border: none;
+}
+
+table.table th, table.table td {
+     border: 0px solid grey; 
+     padding-top: 1.1rem; 
+     padding-bottom: 1rem; 
+}
+
+.table-danger, .table-danger>td, .table-danger>th {
+    background-color: #eddadb;
+}
+
+table.table th, table.table td, li {
+    font-size: 20px;
+    color: #262525 /* padding-top: 1.1rem; */ /* padding-bottom: 1rem; */;
+    font-weight: 500;
+}
+
+
+
+
 /***************************************************/
 
 ul {
