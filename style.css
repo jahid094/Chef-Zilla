@@ -201,57 +201,7 @@ h2 {
 }
 
 
-/***************************************************/
 
-ul {
-    text-align: justify;
-    position: relative;
-    overflow: hidden;
-}
-
-ul:before,
-.active:after {
-    content: '';
-    width: 100%;
-    border: 1px solid grey;
-    position: absolute;
-    top: 4em;
-    margin-top: -2px;
-    z-index: -1;
-}
-
-.active:after {
-    border-color: grey;
-    margin-top: 5em;
-}
-
-ul:after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-}
-
-li {
-    width: 6em;
-    height: 6em;
-    text-align: center;
-    border: 1px solid grey;
-    line-height: 6em;
-    border-radius: 50%;
-    background: #e0abb8;
-    margin: 0 1em;
-    display: inline-block;
-    color: black;
-    font-weight: bold;
-}
-
-.active ~ li {
-    background: white;
-    border: 1px solid grey;
-}
-
-
-/***************************************************/
 
 
 @media only screen and (max-width : 1220px) {
@@ -287,135 +237,11 @@ li {
         margin-top: 120px;
     }
 
-    /*
-    .statusCircle {
-        border: 1px solid grey;
-        border-radius: 50%;
-        width: 80px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        display: inline-block;
-        text-align: center;
-        vertical-align: text-bottom;
-        font-weight: 700;
-        font-size: 12px;
-        background-color: #e0abb8;
-    }
-*/
-
-
-
-    /***************************************************/
-
-    ul {
-        text-align: justify;
-        position: relative;
-        overflow: hidden;
-    }
-
-    ul:before,
-    .active:after {
-        content: '';
-        width: 100%;
-        border: 1px solid grey;
-        position: absolute;
-        top: 3em;
-        margin-top: -9px;
-        z-index: -1;
-    }
-
-    .active:after {
-        border-color: grey;
-        margin-top: 5em;
-    }
-
-    ul:after {
-        content: "";
-        display: inline-block;
-        width: 100%;
-    }
-
-    li {
-        width: 6em;
-        height: 5em;
-        text-align: center;
-        border: 1px solid grey;
-        line-height: 5em;
-        border-radius: 50%;
-        background: #e0abb8;
-        margin: 0 1em;
-        display: inline-block;
-        color: black;
-        font-weight: bold;
-        font-size: 15px;
-    }
-
-    .active ~ li {
-        background: white;
-        border: 1px solid grey;
-    }
-
-
-    /***************************************************/
-}
-
-
-@media only screen and (max-width : 768px) {
-    
-    /***************************************************/
-
-    ul {
-        text-align: justify;
-        position: relative;
-        overflow: hidden;
-    }
-
-    ul:before,
-    .active:after {
-        content: '';
-        width: 100%;
-        border: 1px solid grey;
-        position: absolute;
-        top: 2em;
-        margin-top: -2px;
-        z-index: -1;
-    }
-
-    .active:after {
-        border-color: grey;
-        margin-top: 1em;
-    }
-
-    ul:after {
-        content: "";
-        display: inline-block;
-        width: 100%;
-    }
-
-    li {
-        width: 6em;
-        height: 5em;
-        text-align: center;
-        border: 1px solid grey;
-        line-height: 5em;
-        border-radius: 50%;
-        background: #e0abb8;
-        margin: 0 1em;
-        display: inline-block;
-        color: black;
-        font-weight: bold;
-        font-size: 10px;
-    }
-
-    .active ~ li {
-        background: white;
-        border: 1px solid grey;
-    }
-
-
-    /***************************************************/
 
 }
+
+
+
 
 
 
@@ -445,60 +271,6 @@ li {
         color: #b30000;
     }
     
-    
-    
-        /***************************************************/
-
-    ul {
-        text-align: justify;
-        position: relative;
-        overflow: hidden;
-    }
-
-    ul:before,
-    .active:after {
-        content: '';
-        width: 100%;
-        border: 1px solid grey;
-        position: absolute;
-        top: 2em;
-        margin-top: -10px;
-        z-index: -1;
-    }
-
-    .active:after {
-        border-color: grey;
-        border: none;
-    }
-
-    ul:after {
-        content: "";
-        display: inline-block;
-        width: 100%;
-    }
-
-    li {
-        width: 4em;
-        height: 5em;
-        text-align: center;
-        border: 1px solid grey;
-        line-height: 5em;
-        border-radius: 50%;
-        background: #e0abb8;
-        margin: 0 1em;
-        display: inline-block;
-        color: black;
-        font-weight: bold;
-        font-size: 8px;
-    }
-
-    .active ~ li {
-        background: white;
-        border: 1px solid grey;
-    }
-
-
-    /***************************************************/
 
 
 }
