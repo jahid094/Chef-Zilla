@@ -12,6 +12,51 @@
     height: 100%;
 }
 
+/*
+.cover {
+    object-fit: cover;
+    width: 300px;
+    height: 150px;
+}
+*/
+
+.indexfirstpic {
+
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.indexsecondpic {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.indexthirdpic {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.indexfourthpic {
+    width: 100%;
+    height: 45vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+
+.card-img-top {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+}
 
 
 
@@ -92,11 +137,6 @@ h2 {
     color: #b30000;
 }
 
-.ABChocolate {
-    width: 100%;
-    height: 92%;
-    border-radius: 20px
-}
 
 .days {
     border: 1px solid grey;
@@ -217,6 +257,13 @@ h2 {
         font-size: 20px;
         margin-left: 90px;
     }
+    
+    .indexfourthpic {
+        width: 100%;
+        height: 48vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
 
     .loginButton {
         border: 1px solid black;
@@ -235,10 +282,11 @@ h2 {
         font-size: 30px;
     }
 
-    .ABChocolate {
+    .indexfourthpic {
         width: 100%;
-        height: 88%;
-        border-radius: 20px
+        height: 48vw;
+        object-fit: cover;
+        border-radius: 20px;
     }
 
     .foodImage {
@@ -262,11 +310,7 @@ h2 {
         font-size: 30px;
     }
 
-    .ABChocolate {
-        width: 100%;
-        height: 88%;
-        border-radius: 20px
-    }
+
 
     .foodImage {
         margin-top: 120px;
@@ -278,7 +322,7 @@ h2 {
         padding: 8px;
         color: #b30000;
     }
-    
+
 
 
 }
